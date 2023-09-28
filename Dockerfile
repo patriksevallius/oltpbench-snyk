@@ -1,4 +1,4 @@
-FROM openjdk:16-slim-buster
+FROM openjdk:21-slim-buster
 COPY . /usr/src/oltpbench
 WORKDIR /usr/src/oltpbench
 RUN .deploy/install.sh
