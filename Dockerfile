@@ -1,4 +1,4 @@
-FROM openjdk:21-slim-buster
+FROM openjdk:22-ea-15-jdk-slim-bullseye
 COPY . /usr/src/oltpbench
 WORKDIR /usr/src/oltpbench
 RUN .deploy/install.sh
